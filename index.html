@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwing Pricing Cards.</title>
+    <title>Clipboard Website</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,6 +14,45 @@
     />
   </head>
   <body>
-    <h1 class="text-5xl">Hello TailwindCSS</h1>
+    <!-- Global Container -->
+    <div
+      class="flex h-full flex-col items-center justify-center bg-white px-8 pt-28 text-center"
+    >
+      <!-- Clipboard Logo SVG -->
+      <svg width="125" height="125" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+          <circle cx="62.5" cy="62.5" r="57.5" />
+          <path
+            d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
+            stroke-linecap="round"
+          />
+        </g>
+      </svg>
+
+      <!-- Hero Section -->
+      <section id="hero" class="pb-14">
+        <h2 class="text-darkGrayishBlue mt-14 text-4xl font-bold">
+          A history of everything you copy
+        </h2>
+        <p class="text-grayishBlue mt-8 text-2xl">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+
+        <!-- Hero CTA -->
+        <div class="mt-8 flex flex-col items-center justify-center gap-5 px-4">
+          <button
+            class="bg-strongCyan w-72 rounded-full px-8 py-4 text-xl text-white shadow-xl"
+          >
+            Download for Windows
+          </button>
+          <button
+            class="bg-lightBlue w-72 rounded-full px-8 py-4 text-xl text-white shadow-xl"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
