@@ -14,4 +14,8 @@
   .section-sub-text {
     @apply text-grayishBlue text-xl;
   }
+
+  button{
+    @apply w-full rounded-full px-8 py-4 text-xl text-white shadow-xl;
+  }
 }
