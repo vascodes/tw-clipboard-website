@@ -20,6 +20,10 @@
   }
 
   .section-sub-text {
-    @apply text-grayishBlue text-xl xl:text-4xl xl:mt-4;
+    @apply text-grayishBlue text-xl xl:text-5xl xl:mt-4;
+  }
+
+  .tools-list-description{
+    @apply section-sub-text max-w-sm mx-auto text-sm lg:text-xl xl:text-4xl;    
   }
 }
