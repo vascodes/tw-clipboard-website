@@ -4,22 +4,22 @@
 
 @layer base {
   h2 {
-    @apply text-darkGrayishBlue my-10 text-4xl font-bold md:text-5xl xl:text-8xl;
+    @apply text-darkGrayishBlue my-10 text-4xl font-bold md:text-5xl xl:text-9xl;
   }
 
   h5 {
-    @apply text-darkGrayishBlue mb-2 text-2xl font-bold;
+    @apply text-darkGrayishBlue mb-2 text-2xl font-bold xl:text-6xl xl:w-full;
   }
 
   button {
-    @apply w-full rounded-full py-4 text-xl text-white shadow-xl xl:py-8 xl:text-4xl;
+    @apply w-full rounded-full py-4 text-xl text-white shadow-xl xl:py-8 xl:text-5xl;
   }
 
   .button-container {
-    @apply mx-auto flex max-w-xl flex-col items-center justify-center gap-5 px-4 md:flex-row xl:max-w-5xl;
+    @apply mx-auto flex max-w-xl flex-col items-center justify-center gap-5 md:flex-row xl:max-w-7xl xl:gap-11;
   }
 
   .section-sub-text {
-    @apply text-grayishBlue text-xl;
+    @apply text-grayishBlue text-xl xl:text-3xl xl:mt-4;
   }
 }

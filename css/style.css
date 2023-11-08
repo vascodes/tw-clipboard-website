@@ -453,7 +453,7 @@ h2 {
 
 @media (min-width: 2560px) {
   h2 {
-    font-size: 6rem;
+    font-size: 8rem;
     line-height: 1;
   }
 }
@@ -465,6 +465,14 @@ h5 {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: hsl(210 10% 33% / var(--tw-text-opacity));
+}
+
+@media (min-width: 2560px) {
+  h5 {
+    width: 100%;
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 button {
@@ -485,8 +493,8 @@ button {
   button {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -499,8 +507,6 @@ button {
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -511,7 +517,8 @@ button {
 
 @media (min-width: 2560px) {
   .button-container {
-    max-width: 64rem;
+    max-width: 80rem;
+    gap: 2.75rem;
   }
 }
 
@@ -520,6 +527,14 @@ button {
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
+}
+
+@media (min-width: 2560px) {
+  .section-sub-text {
+    margin-top: 1rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 *, ::before, ::after {
@@ -774,6 +789,11 @@ button {
   padding: 2rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -884,20 +904,21 @@ button {
     align-items: flex-start;
   }
 
-  .lg\:justify-evenly {
-    justify-content: space-evenly;
-  }
-
-  .lg\:pr-16 {
-    padding-right: 4rem;
-  }
-
   .lg\:pt-0 {
     padding-top: 0px;
+  }
+
+  .lg\:pr-10 {
+    padding-right: 2.5rem;
   }
 }
 
 @media (min-width: 2560px) {
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .xl\:mt-16 {
     margin-top: 4rem;
   }
@@ -906,16 +927,42 @@ button {
     margin-top: 8rem;
   }
 
+  .xl\:w-3\/5 {
+    width: 60%;
+  }
+
   .xl\:max-w-7xl {
     max-width: 80rem;
+  }
+
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
+
+  .xl\:gap-11 {
+    gap: 2.75rem;
+  }
+
+  .xl\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
   .xl\:pb-72 {
     padding-bottom: 18rem;
   }
 
+  .xl\:pr-0 {
+    padding-right: 0px;
+  }
+
   .xl\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
