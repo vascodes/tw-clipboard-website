@@ -45,16 +45,27 @@
       <!-- Features Section -->
       <section id="features-section">
         <h2>Keep track of your snippets</h2>
-        <p class="text-grayishBlue mt-8 text-xl">
+        <p class="text-grayishBlue mx-auto mt-8 text-xl lg:max-w-5xl">
           Clipboard instantly stores any item you copy in the cloud, meaning you
           can access your snippets immediately on all your devices. Our Mac and
           iOS apps will help you organize everything.
         </p>
-        <!-- Feature Computer Image -->
-        <div class="flex flex-col gap-3">
-          <img src="images/image-computer.png" alt="" class="my-14" />
+        <div
+          class="relative flex flex-col gap-3 md:flex-row md:justify-between md:py-12 lg:items-start lg:justify-evenly"
+        >
+          <!-- Feature Computer Image -->
+          <div class="my-14 lg:my-0 mx-auto">
+            <img
+              src="images/image-computer.png"
+              alt=""
+              class="md:absolute md:-left-48 md:top-16 md:w-3/4 lg:static lg:w-full lg:pr-16"
+            />
+          </div>
 
-          <div class="flex flex-col gap-10">
+          <!-- Feature Lists -->
+          <div
+            class="flex flex-col gap-10 md:max-w-xs md:pt-3 md:text-left lg:pt-0"
+          >
             <div>
               <h5>Quick Search</h5>
               <p class="section-sub-text">
