@@ -20,6 +20,6 @@
   }
 
   .section-sub-text {
-    @apply text-grayishBlue text-xl xl:text-3xl xl:mt-4;
+    @apply text-grayishBlue text-xl xl:text-4xl xl:mt-4;
   }
 }

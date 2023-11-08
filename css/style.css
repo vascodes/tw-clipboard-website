@@ -532,8 +532,8 @@ button {
 @media (min-width: 2560px) {
   .section-sub-text {
     margin-top: 1rem;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -904,12 +904,12 @@ button {
     align-items: flex-start;
   }
 
-  .lg\:pt-0 {
-    padding-top: 0px;
-  }
-
   .lg\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 }
 
@@ -931,6 +931,14 @@ button {
     width: 60%;
   }
 
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+
   .xl\:max-w-7xl {
     max-width: 80rem;
   }
@@ -941,11 +949,6 @@ button {
 
   .xl\:gap-11 {
     gap: 2.75rem;
-  }
-
-  .xl\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
   .xl\:pb-72 {
