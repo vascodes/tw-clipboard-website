@@ -1,1 +1,1 @@
-## Pricing Grid built using Tailwind CSS.
+## An homepage for a Clipboard app built using Tailwind CSS.
