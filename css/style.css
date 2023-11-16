@@ -762,8 +762,8 @@ button {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -904,18 +904,6 @@ button {
     flex-direction: row;
   }
 
-  .md\:items-end {
-    align-items: flex-end;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
-  }
-
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -952,12 +940,16 @@ button {
     max-width: 64rem;
   }
 
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .lg\:items-start {
     align-items: flex-start;
   }
 
-  .lg\:items-end {
-    align-items: flex-end;
+  .lg\:gap-12 {
+    gap: 3rem;
   }
 
   .lg\:pr-10 {
@@ -983,8 +975,20 @@ button {
     margin-top: 8rem;
   }
 
+  .xl\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .xl\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .xl\:w-3\/5 {
     width: 60%;
+  }
+
+  .xl\:w-96 {
+    width: 24rem;
   }
 
   .xl\:w-fit {
@@ -996,14 +1000,6 @@ button {
     width: 100%;
   }
 
-  .xl\:w-1\/2 {
-    width: 50%;
-  }
-
-  .xl\:w-1\/3 {
-    width: 33.333333%;
-  }
-
   .xl\:max-w-6xl {
     max-width: 72rem;
   }
@@ -1012,10 +1008,8 @@ button {
     max-width: 80rem;
   }
 
-  .xl\:scale-150 {
-    --tw-scale-x: 1.5;
-    --tw-scale-y: 1.5;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  .xl\:max-w-full {
+    max-width: 100%;
   }
 
   .xl\:items-end {
@@ -1030,8 +1024,8 @@ button {
     gap: 2.75rem;
   }
 
-  .xl\:gap-10 {
-    gap: 2.5rem;
+  .xl\:gap-20 {
+    gap: 5rem;
   }
 
   .xl\:gap-32 {
